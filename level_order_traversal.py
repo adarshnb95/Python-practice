@@ -7,7 +7,7 @@ class TreeNode:
 
 import queue
 class Solution:
-    def levelOrder(self, root: TreeNode) -> List[List[int]]:
+    def levelOrder(self, root: TreeNode) -> list[list[int]]:
         result = []
         q = queue.Queue()
         
@@ -33,10 +33,6 @@ class Solution:
                 result.append(a)
         
         return result
-
-class createTree:
-
-
 
 if __name__ == "__main__":
     S = Solution()
